@@ -1,0 +1,177 @@
+@media screen & (max-width: 800px) {
+  div.breakfast {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  }
+    div.lunch {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  }
+    div.dinner {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  }
+}
+
+@media screen & (max-width: 400px) {
+  div.breakfast h3 {
+    font-size: 20px;
+  }
+}
+div.container {
+  width: 100%;
+  height: 100vh;
+  position:static;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  padding-left:0;
+  padding-right:0;
+}
+
+div#myCarousel {
+  height: 100vh;
+}
+
+div.carousel-inner {
+  height: 100vh;
+}
+
+div.item {
+  height: 100vh;
+}
+
+div.carousel-caption {
+  border-radius: 20px;
+  margin-bottom: 200px;
+}
+
+div.item active img {
+  height: 1080px;
+}
+  
+div.breakfast1 {
+  background-image: url("../images/comp1.png");
+  background-repeat: none;
+  background-size: cover;
+}
+
+div.breakfast {
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: black;
+  border-size: 5px;
+  max-height: 30vh;
+  min-height: 200px;
+  border-radius: 20px;
+}
+
+div.breakfast h3 {
+  font-family: 'Permanent Marker', cursive;
+  color:black;
+  font-size: 70px;
+  transform: rotate(-10deg);
+  text-shadow: none;
+}
+
+div.breakfast h5 {
+  font-family: Roboto;
+  font-weight: 800;
+  color:black;
+  font-size: 20px;
+  text-shadow: none;
+}
+
+div.breakfast p {
+  font-family: Roboto;
+  font-weight: 800;
+  color:black;
+  font-size: 15px;
+  text-shadow: none;
+}
+
+div.lunch1 {
+  background-image: url("../images/comp2.jpg");
+  background-repeat: none;
+  background-size: cover;
+
+}
+
+div.lunch {
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: black;
+  border-size: 5px;
+  border-radius: 20px;
+  height: 30vh;
+}
+
+div.lunch h3 {
+  font-family: 'Permanent Marker', cursive;
+  color:black;
+  font-size: 80px;
+  transform: rotate(-15deg);
+  text-shadow: none;
+}
+
+div.lunch h5 {
+  font-family: Roboto;
+  font-weight: 800;
+  color:black;
+  font-size: 20px;
+  text-shadow: none;
+}
+
+div.lunch p {
+  font-family: Roboto;
+  font-weight: 800;
+  color:black;
+  font-size: 15px;
+  text-shadow: none;
+}
+
+div.dinner1 {
+  background-image: url("../images/comp3.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+
+div.dinner {
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: black;
+  border-size: 5px;
+  height: 30vh;
+  border-radius: 20px;
+}
+
+div.dinner h3 {
+  font-family: 'Permanent Marker', cursive;
+  color:black;
+  font-size: 80px;
+  transform: rotate(-15deg);
+  text-shadow: none;
+}
+
+div.dinner h5 {
+  font-family: Roboto;
+  font-weight: 800;
+  color:black;
+  font-size: 20px;
+  text-shadow: none;
+}
+
+div.dinner p {
+  font-family: Roboto;
+  font-weight: 800;
+  color:black;
+  font-size: 15px;
+  text-shadow: none;
+}
